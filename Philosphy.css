@@ -1,0 +1,421 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+   background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)), url(assets/image/header.webp) ;
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding: 10px 25px;
+    color: rgb(156, 151, 151);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .icons {
+      display: none;
+    }  
+  }
+
+  @media only screen and (max-width: 768px) {
+    .search {
+      display: none;
+    }
+    .throw{
+        display: none;
+    }  
+    .pomodoro{
+        margin-top: 15px;
+    }
+    .bb{
+        margin-top: 140px;
+    }
+    .ee{
+        margin-top: 200px;
+    }
+    .chain{
+        position: relative;
+        top: -50px;
+    }
+    .ff{
+        position: relative;
+        top: -100px;
+    }
+    .gg{
+        margin-top: 230px;
+    }
+    .hh{
+        margin-top: -90px;
+    }
+    .ii{
+        margin: -90px;
+    }
+    .smallboxes{
+        width: 70px;
+        height: 70px;
+    }
+    .zz{
+        display: none;
+    }
+  }
+
+.col-md-3 ul li{
+    list-style: none;
+    float: left;
+    letter-spacing: 15px;
+}
+
+.col-md-3 ul li a i{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.col-md-6 img{
+    width: 300px;
+    
+}
+.aa{
+    border-bottom: 1px solid rgb(66, 65, 65);
+}
+
+.aa button{
+    background-color: rgb(0, 0, 0,0);
+    color: rgb(156, 151, 151);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.web1{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)),url(assets/image/pic1.webp);
+    background-position: center; 
+    background-size: cover;
+
+}
+.web1:hover{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)),url(assets/image/pic1.webp);
+    transition: all 0.4s ease-in-out;
+    opacity: .5;
+    content: "";
+}
+.web2:hover{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)),url(assets/image/pic2.webp);
+    transition: all 0.4s ease-in-out;
+    opacity: .5;
+    content: "";
+}
+.web3:hover{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)),url(assets/image/pic3.webp);
+    transition: all 0.4s ease-in-out;
+    opacity: .5;
+    content: "";
+}
+.web1 p{
+    color: white;
+    top: 360px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 280px;
+    
+}
+
+.men{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-image: url(assets/image/pic4.webp);
+    background-position: center;
+    background-size: cover;
+}
+.web2{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)),url(assets/image/pic2.webp);
+    background-position: center; 
+    background-size: cover;
+    height: 270px;
+
+}
+
+.web2 p{
+    color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 130px;
+   
+}
+
+.web3{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)),url(assets/image/pic3.webp);
+    background-position: center; 
+    background-size: cover;
+    height: 270px;
+
+}
+
+.web3 p{
+    color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 130px;  
+}
+
+.boxes{
+    background-color: #f2f2f2;
+}
+
+.card-text{
+    color: black;
+}
+
+.quote{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.cc{
+    display: block;
+    font-family: "metropolis-regular", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-style: normal;
+    color: #999999;
+}
+
+.fa-duotone{
+    color: #000000;
+    font-size: larger;
+}
+
+.comma{
+    /* border: 1px solid #000; */
+    width: 100px;
+}
+
+.date a{
+    text-decoration: none;
+    color: #898989;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 0px 20px;
+}
+
+.para{
+    text-decoration: none;
+    color: #898989;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 13px 30px;
+    margin: -5px;
+}
+
+.xx{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 0px 10px;
+    margin: 10px;
+}
+
+.entry-term a{
+    text-decoration: none;
+    color: rgb(70, 70, 204);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.bb{
+    position: relative;
+    top: -90px;
+}
+
+.dd{
+    position: relative;
+    top: -70px;
+}
+
+.ee{
+    position: relative;
+    top: -170px;
+}
+
+.ff{
+    position: relative;
+    top: -100px;
+}
+
+.gg{
+    position: relative;
+    top: -330px;
+}
+
+.hh{
+    position: relative;
+    top: -200px;
+}
+
+.ii{
+    position: relative;
+    top: -100px;
+}
+
+.page-item a{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0,0);
+    border: 0px solid #000;
+}
+.page2{
+    background-color: #000000;
+    border-radius: 3px;
+    height: 0%;
+}
+.page2 a{
+    color: white;
+}
+
+.back{
+    background-color: white;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #dbd4d4;
+}
+.next{
+    background-color: white;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #dbd4d4;
+
+}
+.fa-arrow-left{
+    font-size: 20px;
+}
+.fa-arrow-right{
+    font-size: 20px;
+}
+
+.boxe1{
+    background-color:rgba(7, 7, 7,0.7);
+}
+
+.boxe1 h5{
+    color: white;
+    font-size: medium;
+}
+.nav-link{
+    color: rgb(107, 104, 104);
+    font-family: sans-serif;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.email{
+    background-color: #000;
+    border: 0px solid #000000;
+    height: 50px;
+}
+.icons1 ul li{
+    list-style: none;
+    float: left;
+    letter-spacing: 20px;
+    font-size: 25px;
+}
+.icons1{
+    position: relative;
+    right: 18px;
+    
+}
+.icons1 ul li a{
+    color: black;
+
+}
+.boxes2{
+    background-color: white;
+}
+.boxes2 h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.smallboxes{
+    width: 70px;
+    height: 70px;
+    background-image: url(assets/image/wheel-400.jpg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.smallboxes1{
+    width: 70px;
+    height: 70px;
+    background-image: url(assets/image/cookies-400.jpg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.smallboxes2{
+    width: 70px;
+    height: 70px;
+    background-image: url(assets/image/tulips-400.jpg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.smallboxes3{
+    width: 70px;
+    height: 70px;
+    background-image: url(assets/image/shutterbug-400.jpg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.smallboxes4{
+    width: 70px;
+    height: 70px;
+    background-image: url(assets/image/pic9.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.smallboxes5{
+    width: 70px;
+    height: 70px;
+    background-image: url(assets/image/pic11.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lines a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.button{
+    background-color: #e0d7d7;
+    border-radius: 3px;
+    height: 32px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.button:hover{
+    background-color: #000000;
+    color: white;
+}
